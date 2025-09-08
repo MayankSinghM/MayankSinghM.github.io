@@ -2,99 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mayank Singh – Portfolio</title>
+  <title>Mayank Singh Manral| Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Google Fonts & Font Awesome for icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Mayank Singh's Advanced Portfolio Website">
   <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/7b2b2c1b1d.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="profile.jpg">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Mayank Singh</h1>
-      <p>AI &amp; ML Enthusiast | B.Tech. Computer Science, AKTU University (2021–2025)</p>
-      <div class="badges">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
-        <img src="https://img.shields.io/badge/Machine%20Learning-FFD43B?style=for-the-badge&logo=scikit-learn&logoColor=black" alt="ML Badge">
-        <img src="https://img.shields.io/badge/Data%20Analysis-1d72b8?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas Badge">
-      </div>
-    </header>
-    <div class="section">
-      <h2>🚀 About Me</h2>
+  <nav class="navbar">
+    <div class="nav-brand">
+      <img src="profile.jpg" alt="Profile" class="nav-profile" />
+      <span>Mayank Singh</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <button id="mode-toggle" aria-label="Toggle dark mode">
+          <span id="mode-icon">🌙</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <img src="profile.jpg" alt="Mayank Singh" class="hero-img">
+    <h1 class="hero-title">Hi, I'm Mayank Singh</h1>
+    <p class="hero-tagline">Developer | Machine Learning & Data Science Enthusiast</p>
+    <a href="#projects" class="hero-btn">View My Work ↓</a>
+  </header>
+
+  <main>
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
       <p>
-        I'm passionate about building intelligent solutions and open-source projects.<br>
-        Focused on Machine Learning, Data Analysis, and predictive modeling.<br>
-        <em>Always learning, always building.</em>
+        I'm passionate about building intelligent solutions, exploring new technologies, and making data-driven decisions.
+        My main interests are <span class="bold">Machine Learning</span>, <span class="bold">Data Science</span>, and <span class="bold">Web Development</span>.
       </p>
-    </div>
-    <div class="section">
-      <h2>🛠️ Skills</h2>
-      <div class="skills">
-        <span class="skill-tag">Python</span>
-        <span class="skill-tag">Machine Learning</span>
-        <span class="skill-tag">Data Analysis</span>
-        <span class="skill-tag">Pandas</span>
-        <span class="skill-tag">Scikit-learn</span>
-        <span class="skill-tag">NumPy</span>
-        <span class="skill-tag">Matplotlib</span>
-        <span class="skill-tag">Jupyter Notebooks</span>
-      </div>
-    </div>
-    <div class="section">
-      <h2>🏆 Certifications</h2>
-      <ul>
-        <li>Coursera Machine Learning (2024)</li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>💡 Projects</h2>
-      <div class="projects">
-        <div class="project-card">
-          <div class="project-title"><i class="fas fa-robot"></i> Machine Learning</div>
-          <div class="project-desc">Tutorials, experiments, and best practices for supervised and unsupervised learning.</div>
-          <div class="project-extra">
-            <strong>Topics:</strong> Regression, Classification, Clustering, Feature Engineering<br>
-            <strong>Repo:</strong> <a href="https://github.com/MayankSinghM/Machine-Learning" target="_blank">github.com/MayankSinghM/Machine-Learning</a>
-          </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon">💻</span>
+          <span>Python</span>
         </div>
-        <div class="project-card">
-          <div class="project-title"><i class="fas fa-chart-line"></i> Student Score Predictor</div>
-          <div class="project-desc">Predicts student scores using regression models and interactive data visualization.</div>
-          <div class="project-extra">
-            <strong>Tech:</strong> Python, Pandas, Scikit-learn<br>
-            <strong>Repo:</strong> <a href="https://github.com/MayankSinghM/student-score-predictor" target="_blank">github.com/MayankSinghM/student-score-predictor</a>
-          </div>
+        <div class="skill-card">
+          <span class="skill-icon">🌐</span>
+          <span>Web Dev</span>
         </div>
-        <div class="project-card">
-          <div class="project-title"><i class="fas fa-coins"></i> Stock Prediction</div>
-          <div class="project-desc">Time-series forecasting for stock prices using ML algorithms.</div>
-          <div class="project-extra">
-            <strong>Includes:</strong> Data preprocessing, exploratory analysis, predictive modeling<br>
-            <strong>Repo:</strong> <a href="https://github.com/MayankSinghM/Stock-Prediction" target="_blank">github.com/MayankSinghM/Stock-Prediction</a>
-          </div>
+        <div class="skill-card">
+          <span class="skill-icon">🤖</span>
+          <span>ML & AI</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">📊</span>
+          <span>Data Science</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">⚛️</span>
+          <span>React</span>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">🐍</span>
+          <span>Jupyter</span>
         </div>
       </div>
-    </div>
-    <div class="section">
-      <h2>📄 Resume</h2>
-      <button class="resume-btn" onclick="window.open('https://github.com/MayankSinghM/resume/blob/main/README.md','_blank')">
-        <i class="fas fa-file-alt"></i> View Resume
-      </button>
-    </div>
-    <div class="section">
-      <h2>📫 Contact</h2>
-      <div class="contact-links">
-        <a class="contact-link" href="mailto:mayank@example.com"><i class="fas fa-envelope"></i> Email</a>
-        <a class="contact-link" href="https://github.com/MayankSinghM" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-        <a class="contact-link" href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project cards will be injected by script -->
       </div>
-    </div>
-    <footer>
-      Thank you for visiting my portfolio! <br>
-      <span style="font-size:1.3em;">🌟</span>
-    </footer>
-  </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <div class="contact-grid">
+        <div>
+          <span class="contact-icon">✉️</span>
+          <span>Email:</span>
+          <span id="email-text">your.email@example.com</span>
+          <button id="copy-email" title="Copy email">📋</button>
+        </div>
+        <div>
+          <span class="contact-icon">🐙</span>
+          <a href="https://github.com/MayankSinghM" target="_blank">GitHub</a>
+        </div>
+        <div>
+          <span class="contact-icon">🔗</span>
+          <a href="https://www.linkedin.com/in/mayanksinghm" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mayank Singh • Built with ❤️ on GitHub Pages</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
