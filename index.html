@@ -2,27 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mayank Singh | Personal Website</title>
+  <title>Mayank Singh – Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts & Font Awesome for icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/7b2b2c1b1d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <h1>Mayank Singh</h1>
-    <p>Hi, I'm Mayank—a developer passionate about Machine Learning, Data Science, and building useful projects.</p>
-  </header>
-  <section>
-    <h2>My Top Projects</h2>
-    <ul class="repo-list">
-      <li><a href="https://github.com/MayankSinghM/Machine-Learning" target="_blank">Machine-Learning</a></li>
-      <li><a href="https://github.com/MayankSinghM/portfolio" target="_blank">Portfolio Website</a></li>
-      <li><a href="https://github.com/MayankSinghM/student-score-predictor" target="_blank">Student Score Predictor</a></li>
-      <li><a href="https://github.com/MayankSinghM/Stock-Prediction" target="_blank">Stock Prediction</a></li>
-    </ul>
-  </section>
-  <footer>
-    <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    <p>© 2025 Mayank Singh</p>
-  </footer>
+  <div class="container">
+    <header>
+      <h1>Mayank Singh</h1>
+      <p>AI &amp; ML Enthusiast | B.Tech. Computer Science, AKTU University (2021–2025)</p>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+        <img src="https://img.shields.io/badge/Machine%20Learning-FFD43B?style=for-the-badge&logo=scikit-learn&logoColor=black" alt="ML Badge">
+        <img src="https://img.shields.io/badge/Data%20Analysis-1d72b8?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas Badge">
+      </div>
+    </header>
+    <div class="section">
+      <h2>🚀 About Me</h2>
+      <p>
+        I'm passionate about building intelligent solutions and open-source projects.<br>
+        Focused on Machine Learning, Data Analysis, and predictive modeling.<br>
+        <em>Always learning, always building.</em>
+      </p>
+    </div>
+    <div class="section">
+      <h2>🛠️ Skills</h2>
+      <div class="skills">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Machine Learning</span>
+        <span class="skill-tag">Data Analysis</span>
+        <span class="skill-tag">Pandas</span>
+        <span class="skill-tag">Scikit-learn</span>
+        <span class="skill-tag">NumPy</span>
+        <span class="skill-tag">Matplotlib</span>
+        <span class="skill-tag">Jupyter Notebooks</span>
+      </div>
+    </div>
+    <div class="section">
+      <h2>🏆 Certifications</h2>
+      <ul>
+        <li>Coursera Machine Learning (2024)</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>💡 Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <div class="project-title"><i class="fas fa-robot"></i> Machine Learning</div>
+          <div class="project-desc">Tutorials, experiments, and best practices for supervised and unsupervised learning.</div>
+          <div class="project-extra">
+            <strong>Topics:</strong> Regression, Classification, Clustering, Feature Engineering<br>
+            <strong>Repo:</strong> <a href="https://github.com/MayankSinghM/Machine-Learning" target="_blank">github.com/MayankSinghM/Machine-Learning</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-title"><i class="fas fa-chart-line"></i> Student Score Predictor</div>
+          <div class="project-desc">Predicts student scores using regression models and interactive data visualization.</div>
+          <div class="project-extra">
+            <strong>Tech:</strong> Python, Pandas, Scikit-learn<br>
+            <strong>Repo:</strong> <a href="https://github.com/MayankSinghM/student-score-predictor" target="_blank">github.com/MayankSinghM/student-score-predictor</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-title"><i class="fas fa-coins"></i> Stock Prediction</div>
+          <div class="project-desc">Time-series forecasting for stock prices using ML algorithms.</div>
+          <div class="project-extra">
+            <strong>Includes:</strong> Data preprocessing, exploratory analysis, predictive modeling<br>
+            <strong>Repo:</strong> <a href="https://github.com/MayankSinghM/Stock-Prediction" target="_blank">github.com/MayankSinghM/Stock-Prediction</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2>📄 Resume</h2>
+      <button class="resume-btn" onclick="window.open('https://github.com/MayankSinghM/resume/blob/main/README.md','_blank')">
+        <i class="fas fa-file-alt"></i> View Resume
+      </button>
+    </div>
+    <div class="section">
+      <h2>📫 Contact</h2>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:mayank@example.com"><i class="fas fa-envelope"></i> Email</a>
+        <a class="contact-link" href="https://github.com/MayankSinghM" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a class="contact-link" href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+    <footer>
+      Thank you for visiting my portfolio! <br>
+      <span style="font-size:1.3em;">🌟</span>
+    </footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
