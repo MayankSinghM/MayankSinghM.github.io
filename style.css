@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7fafc;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #2d3748;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+}
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+section {
+  padding: 2rem 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+.repo-list {
+  list-style: none;
+  padding: 0;
+}
+.repo-list li {
+  margin: 0.7rem 0;
+}
+.repo-list a {
+  color: #3182ce;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.repo-list a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: #edf2f7;
+  color: #555;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+footer a {
+  color: #2b6cb0;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  section {
+    padding: 1rem;
+  }
+}
